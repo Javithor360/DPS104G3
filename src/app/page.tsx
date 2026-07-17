@@ -25,8 +25,8 @@ export default function Home() {
     {
       id: 4,
       path: "/ejercicio4",
-      title: "Mi Tienda Tech",
-      desc: "Carrito de compras con composición de componentes",
+      title: "Ejercicio 4",
+      desc: "Mi Tienda Tech",
     },
     {
       id: 5,
