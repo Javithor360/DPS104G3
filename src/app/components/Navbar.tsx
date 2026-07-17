@@ -20,6 +20,9 @@ export default function Navbar() {
         <Link href="/ejercicio4" className={styles.navLink}>
           Ejercicio 4
         </Link>
+        <Link href="/complementario" className={styles.navLink}>
+          Complementario
+        </Link>
       </div>
     </nav>
   );

@@ -4,10 +4,11 @@ import styles from "./page.module.css";
 
 export default function Home() {
   const exercises = [
-    { id: 1, title: "Ejercicio 1", desc: "Directorio de Perfiles" },
-    { id: 2, title: "Ejercicio 2", desc: "Tienda Online" },
-    { id: 3, title: "Ejercicio 3", desc: "Registro de Usuario" },
-    { id: 4, title: "Ejercicio 4", desc: "Mi Tienda Tech" },
+    { id: 1, path: "/ejercicio1", title: "Ejercicio 1", desc: "Directorio de Perfiles" },
+    { id: 2, path: "/ejercicio2", title: "Tienda Online", desc: "Lista de productos con filtro por categoría" },
+    { id: 3, path: "/ejercicio3", title: "Ejercicio 3", desc: "Formulario con validación en tiempo real" },
+    { id: 4, path: "/ejercicio4", title: "Mi Tienda Tech", desc: "Carrito de compras con composición de componentes" },
+    { id: 5, path: "/complementario", title: "Complementario 1", desc: "Galería de Películas con Modal" },
   ];
 
   return (
@@ -28,7 +29,7 @@ export default function Home() {
           {exercises.map((ex) => (
             <Link
               key={ex.id}
-              href={`/ejercicio${ex.id}`}
+              href={ex.path}
               className={styles.card}
             >
               <h2>{ex.title}</h2>
