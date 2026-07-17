@@ -58,6 +58,10 @@ export default function Home() {
             </Link>
           ))}
         </div>
+        
+        <p style={{ textAlign: "center", marginTop: "3rem", color: "#666", fontWeight: "bold" }}>
+          Por: Javier Mejía MF232724
+        </p>
       </div>
     </main>
   );
