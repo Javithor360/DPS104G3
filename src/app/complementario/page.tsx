@@ -33,7 +33,7 @@ const movies: Movie[] = [
     year: 2025,
     image:
       "https://m.media-amazon.com/images/M/MV5BZDY2NTkxMWQtMmNkMC00NmNjLWIzMmItNmEyMmRmMDk2YmY2XkEyXkFqcGc@._V1_.jpg",
-    director: "Desconocido",
+    director: "Christopher Nolan",
     rating: 7.8,
     synopsis:
       "Una épica adaptación del clásico de Homero, donde Odiseo lucha por regresar a casa después de la guerra de Troya.",
@@ -88,7 +88,7 @@ const movies: Movie[] = [
     year: 2026,
     image:
       "https://m.media-amazon.com/images/M/MV5BYzc1NWUwMDgtNGZlMS00ZmYzLWIzMzktNmMxMmY1MTUzNWExXkEyXkFqcGc@._V1_.jpg",
-    director: "Desconocido",
+    director: "Christopher Nolan",
     rating: 7.6,
     synopsis:
       "Un thriller psicológico que explora los límites de la mente humana y la obsesión incontrolable.",
